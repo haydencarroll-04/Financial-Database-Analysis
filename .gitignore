@@ -1,0 +1,19 @@
+# Generated synthetic data (regenerate via synthetic_data/generate.py)
+synthetic_data/out/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+*.env.local
