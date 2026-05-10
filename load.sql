@@ -1,5 +1,5 @@
 -- Loads the generated CSVs into financialdb.
--- Run this from PowerShell (not from inside pgAdmin or a VSCode SQL extension (learned that one the hard way):
+-- Run this from PowerShell, not from inside pgAdmin or a VSCode SQL extension (learned that one the hard way):
 --     psql -U postgres -d financialdb -f load.sql
 -- Using \copy instead of server-side COPY so the file paths are read from my machine, not from wherever the Postgres server thinks its working directory is.
 
